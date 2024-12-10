@@ -1,0 +1,25 @@
+{
+  "name": "devconnect",
+  "version": "1.0.0",
+  "description": "Making the collaboration of developers very easy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodeJs",
+    "expressJs",
+    "webSockets",
+    "mongoDb"
+  ],
+  "author": "Abhishek Bhade",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.4",
+    "validator": "^13.12.0"
+  }
+}
